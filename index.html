@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meezan Bank - Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.0.0/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-purple-800 text-white shadow-lg">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <h1 class="text-2xl font-bold">Meezan Bank</h1>
+            <nav class="space-x-4">
+                <a href="#" class="hover:underline">Home</a>
+                <a href="#services" class="hover:underline">Services</a>
+                <a href="#about" class="hover:underline">About Us</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 px-4">
+        <!-- Hero Section -->
+        <section class="bg-white shadow-lg rounded-lg p-6 text-center">
+            <h2 class="text-3xl font-bold text-purple-800 mb-4">Welcome to Meezan Bank</h2>
+            <p class="text-gray-700 mb-6">Experience the true spirit of Islamic banking with us. Your trusted partner in Shariah-compliant financial solutions.</p>
+            <a href="#services" class="bg-purple-800 text-white px-6 py-2 rounded-lg shadow hover:bg-purple-700">Explore Services</a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="my-12">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h4 class="text-xl font-semibold text-purple-800 mb-2">Personal Banking</h4>
+                    <p class="text-gray-600">Tailored solutions for your everyday banking needs.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h4 class="text-xl font-semibold text-purple-800 mb-2">Business Banking</h4>
+                    <p class="text-gray-600">Innovative products for your growing business.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h4 class="text-xl font-semibold text-purple-800 mb-2">Islamic Financing</h4>
+                    <p class="text-gray-600">Shariah-compliant financing options for every need.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="my-12 bg-gray-50 rounded-lg p-6">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">About Us</h3>
+            <p class="text-gray-700">Meezan Bank is the premier Islamic bank in Pakistan, dedicated to providing ethical and Shariah-compliant banking solutions. With a network of over 800 branches nationwide, we are committed to excellence and innovation.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-12 bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Contact Us</h3>
+            <form class="space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
+                </div>
+                <button type="submit" class="bg-purple-800 text-white px-6 py-2 rounded-lg shadow hover:bg-purple-700">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2025 Meezan Bank. All rights reserved.</p>
+    </footer>
+</body>
+</html>
